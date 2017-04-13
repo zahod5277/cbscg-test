@@ -1,0 +1,1 @@
+<a class="tag underContentTag" href="/tag/{$url}">{$tag}</a>

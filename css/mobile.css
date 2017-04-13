@@ -1,0 +1,45 @@
+.our-advantage {
+    position: relative;
+}
+.slider_comments .slide-desc-bg-default {
+  height: 0;
+}
+.container > ._buch_keys::before {
+    width: 1120px;
+}
+.wrapper-page-accounting p, .icon-gift  {
+    font-size: 0.8em;
+}
+.consult-leo {
+    font-size: 0.6em;
+}
+
+@media only screen and (max-device-width: 320px) {
+    .our-advantage, .our-client-comments, .our-facts-outer {
+        width: 1120px !important;
+    }
+    .mobile-full-width::before {
+        width: 1120px !important;
+    }
+    .mobile-wrap-full-width::before {
+        width: 1120px !important;
+    }
+    .info-center-practica::before {
+        width: 1120px;
+    }
+    .info-center-practica-description::before {
+        width: 1120px;
+    }
+    body ._buch_advandage::before {
+        width: 1120px !important;
+    }
+    ._buch_advandage .mobile-full-width::before {
+        width: 1120px !important;
+    }
+    .mini-menu {
+        margin: 0 auto;
+        position: relative;
+        top: -100px;
+        width: 500px;
+    }
+}
