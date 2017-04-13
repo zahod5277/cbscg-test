@@ -6,22 +6,22 @@
                    {$_modx->resource.landingTitle}
                 </h1>
             </div>
-            <div class="RobotoLight after-title white-line">
+            <div class="RobotoLight after-title">
                 {$_modx->resource.landingSlogan}
             </div>
-            <div class="RobotoLight after-title">
+            {*<div class="RobotoLight after-title">
                 {$_modx->resource.landingDescr}
-            </div>
+            </div>*}
             {include 'file:chunks/landingBlocks/sliderForm.tpl'}
-            <div class="get-presentation">
+{*            <div class="get-presentation">
                 <a href="{$_modx->resource.landingFile}" target="_blank">Скачать краткую презентацию</a> 
                 <a data-target="#fill-profile" data-toggle="modal" href="#">Заполнить анкету онлайн</a>
-            </div>
-            <div class="get-more">
+            </div>*}
+{*            <div class="get-more">
                 <div>
                     {$_modx->resource.formTrigger}
                 </div>
-            </div>
+            </div>*}
         </div>
         {include 'file:chunks/landingBlocks/sendAnketa.tpl'}
         {include 'file:chunks/landingBlocks/sendPDF.tpl'}

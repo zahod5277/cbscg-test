@@ -2959,7 +2959,7 @@ header h1.title-top-block {
     color: white;
     text-align: center; }
   header .white-line {
-    background: rgba(0, 0, 0, 0) url("/images/white_underline.png") no-repeat scroll center bottom;
+    background: rgba(0, 0, 0, 0) url("/images/double_white_underline.png") no-repeat scroll center 183px;
     min-height: auto;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -3188,17 +3188,17 @@ header {
 * style for static menu
 */ }
   header .contact-from form {
-    border-bottom: 1px solid #eee;
+    border-bottom: 0px solid #eee;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 40px 50px;
     width: 860px; }
   header .contact-from .about-contact-from {
     margin: 0 auto;
     position: relative;
     text-align: center;
-    top: 60px;
+    top: 40px;
     width: 860px;
     z-index: 10;
     font-size: 18px;
@@ -3208,15 +3208,15 @@ header {
     content: "";
     left: 0;
     position: absolute;
-    top: 15px;
-    width: 140px; }
+    top: 14px;
+    width: 105px; }
   header .contact-from .about-contact-from:after {
     border-top: 1px solid #eee;
     content: "";
     right: 0;
     position: absolute;
-    top: 15px;
-    width: 140px; }
+    top: 14px;
+    width: 105px; }
   header .contact-from input {
     border: 0;
     border-bottom: 1px solid #eee;
