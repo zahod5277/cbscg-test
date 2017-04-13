@@ -4192,6 +4192,34 @@ div.itemFullText p,div.itemFullText div{
     display: none;
 }
 
+/*Правки 13-04*/
+.no-padding{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+
+.childSerivceItem{
+    min-height: 170px;
+}
+
+.childSerivceItem h3{
+    width: 75%;
+    float:left;
+    font-size:16px;
+    margin-top: 0px!important;
+    padding-left: 5px!important;
+    padding-right: 0px!important;
+}
+
+.childSerivceItem h3 a{
+    color: #000;
+}
+
+.childSerivceItem p{
+    margin: 10px 0px!important;
+}
+
+/*Конец правок от 13-04*/
 @media print{    
     .phonesPrinted{
         position: relative;
