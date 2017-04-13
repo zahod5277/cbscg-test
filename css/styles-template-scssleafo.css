@@ -4219,6 +4219,26 @@ div.itemFullText p,div.itemFullText div{
     margin: 10px 0px!important;
 }
 
+.childServiceSidebarMenuTitle{
+    margin-top: 40px;
+}
+
+.childServiceSidebarMenu{
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+.childServiceSidebarMenu li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.childServiceSidebarMenu li a{
+    color: #000;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
 /*Конец правок от 13-04*/
 @media print{    
     .phonesPrinted{
