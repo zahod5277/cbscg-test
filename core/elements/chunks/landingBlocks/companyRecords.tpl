@@ -1,4 +1,19 @@
 {if $_modx->resource.companyRecords!=''}
+    {var $companyRecords = $_modx->runSnippet('getImageList',[
+        'tvname' => 'companyRecords',
+        'tpl' => 'companyRecords.row.tpl'
+    ])}
+{*Если достижения не заполнены, но это дочерняя услуга, подтянуть достижения с родительской услуги*}  
+{elseif ($_modx->resource.companyRecords=='')&&($_modx->resource.template==19||$_modx->resource.template==15)}
+    {var $companyRecords = $_modx->runSnippet('getImageList',[
+        'tvname' => 'companyRecords',
+        'tpl' => 'companyRecords.row.tpl',
+        'docid' => $_modx->resource.parent
+    ])}
+{/if}
+
+{*Если что-то есть, то выводим*}
+{if $companyRecords!=''}
     <div id="companyRecords">
         <div id="companyRecordsInner">
             <div class="container outside-component">
@@ -12,10 +27,7 @@
                             <div class="itemBody">
                                 {*<div class="itemFullText">*}
                                 <div class="our-advantage-inner">
-                                    {$_modx->runSnippet('getImageList',[
-                                'tvname' => 'companyRecords',
-                                'tpl' => 'companyRecords.row.tpl'
-                            ])}
+                                    {$companyRecords}
                                 </div>
                                 {*</div>*}
                                 <div class="clr"></div>
@@ -23,7 +35,7 @@
                             </div>
                             <div class="clr"></div>
                             <div class="itemBackToTop">
-                                <a class="k2Anchor" href="/uncategorised/2807-ocenka#startOfPageId2807">
+                                <a class="k2Anchor" href="#">
                                     Наверх		</a>
                             </div>
                             <div class="clr"></div>
@@ -32,5 +44,5 @@
                 </div>
             </div>
         </div>
-    </div>
-{/if}                        
+    </div>    
+{/if}

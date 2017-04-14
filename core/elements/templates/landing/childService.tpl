@@ -9,7 +9,7 @@
     {include 'file:chunks/landingBlocks/childService/childServiceOuter.tpl'}
         {include 'file:chunks/landingBlocks/video.tpl'}
         {include 'file:chunks/landingBlocks/adv2.tpl'}
-        {if $_modx->resource.companyRecords!=''}
+        {if $_modx->resource.companyRecords!=''||($_modx->resource.template==19||$_modx->resource.template==15)}
         <div class="container mb40px childSrviceForm">
             {include 'file:chunks/landingBlocks/consultForm.tpl'}
         </div>
