@@ -1,4 +1,9 @@
-{switch $_modx->resource.parent}
+{if $_modx->resource.template!=15&&$_modx->resource.template!=19}
+    {var $res = $_modx->resource.id}
+{else}
+    {var $res = $_modx->resource.parent}
+{/if}
+{switch $res}
 {case 3}
 {var $service = 'аудиту'}
 {case 4}

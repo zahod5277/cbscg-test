@@ -23,7 +23,7 @@
     {block 'WELCOMETEXT'}
     {include 'file:chunks/common/breadcrumbs.tpl'}
         {block 'ADV'}
-            {include 'file:chunks/landingBlocks/adv.tpl'}
+            {include 'file:chunks/landingBlocks/childService/childServiceOuter.tpl'}
         {/block}
     {include 'file:chunks/landingBlocks/video.tpl'}
     {include 'file:chunks/landingBlocks/adv2.tpl'}

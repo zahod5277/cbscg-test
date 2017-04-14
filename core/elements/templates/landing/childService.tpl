@@ -7,13 +7,19 @@
 <div class="custom_exteded_text_block">
 {block 'CONTENT'}
     {include 'file:chunks/landingBlocks/childService/childServiceOuter.tpl'}
-        {include 'file:chunks/landingBlocks/companyRecords.tpl'}
+        {include 'file:chunks/landingBlocks/video.tpl'}
+        {include 'file:chunks/landingBlocks/adv2.tpl'}
         {if $_modx->resource.companyRecords!=''}
         <div class="container mb40px childSrviceForm">
             {include 'file:chunks/landingBlocks/consultForm.tpl'}
         </div>
         {/if}
+        
+        <div class="container">
+            {include 'file:chunks/landingBlocks/workers.tpl'}
+        </div>
         {include 'file:chunks/landingBlocks/reviewsAndKeys.tpl'}
+        {include 'file:chunks/landingBlocks/companyRecords.tpl'}
         {if $_modx->resource.addServiceToggler=='Да'}
         {include 'file:chunks/landingBlocks/childService/additionalServices.tpl'}
         {include 'file:chunks/landingBlocks/anyQuestions.tpl'}

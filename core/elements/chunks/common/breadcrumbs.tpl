@@ -6,6 +6,7 @@
                     {$_modx->runSnippet('pdoCrumbs',[
                        'showHome' => 1,
                         'tplWrapper' => '@INLINE {$output}',
+                        'exclude' => '5010',
                         'tpl' => '@INLINE <a href="{$link}">{$pagetitle}</a>',
                         'tplCurrent' => '@INLINE {if $pagetitle=="Контакты"}<a href="{$link}">{$pagetitle}</a>{else}<span class="blueBreadcrumb">{$pagetitle}</span>{/if}'
                         'outputSeparator' => '<span class="bcSeparator">/</span>'

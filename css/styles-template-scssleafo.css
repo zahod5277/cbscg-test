@@ -2899,7 +2899,9 @@ div._tape_news._proposal.f {
   background: #f2f2f2; }
 
 .our-advantage, .our-advantage-videoblockf {
-  background: #f2f2f2; }
+/*  background: #f2f2f2; */
+background: #fff; 
+}
 
 .container > ._proposal {
   margin-top: 40px; }
@@ -4197,11 +4199,6 @@ div.itemFullText p,div.itemFullText div{
     padding-left: 0px!important;
     padding-right: 0px!important;
 }
-
-.childSerivceItem{
-    min-height: 170px;
-}
-
 .childSerivceItem h3{
     width: 75%;
     float:left;
@@ -4220,11 +4217,13 @@ div.itemFullText p,div.itemFullText div{
 }
 
 .childServiceSidebarMenuTitle{
-    margin-top: 40px;
+    margin: 40px 0px;
+    font-size:24px;
 }
 
 .childServiceSidebarMenu{
     margin-top: 20px;
+    margin-bottom: 40px;
     padding-left: 0px;
 }
 
@@ -4237,6 +4236,14 @@ div.itemFullText p,div.itemFullText div{
     color: #000;
     text-decoration: underline;
     font-size: 18px;
+}
+
+.childSrviceMenuOuter{
+    width: 28%;
+}
+
+.childSrviceOuter{
+    width: 72%;
 }
 
 /*Конец правок от 13-04*/
