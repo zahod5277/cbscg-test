@@ -13,15 +13,20 @@
                 {$_modx->resource.landingDescr}
             </div>*}
             {include 'file:chunks/landingBlocks/sliderForm.tpl'}
-{*            <div class="get-presentation">
-                <a href="{$_modx->resource.landingFile}" target="_blank">Скачать краткую презентацию</a> 
+            <div class="get-presentation">
+                {if $_modx->resource.landingFile==''&&($_modx->resource.template==19||$_modx->resource.template==15)}
+                        {var $landingFile = '[[#[[#[[*id]].parent]].landingFile]]'}
+                    {else}
+                        {var $landingFile = $_modx->resource.landingFile}
+                {/if}
+                <a href="{$landingFile}" target="_blank">Скачать краткую презентацию</a> 
                 <a data-target="#fill-profile" data-toggle="modal" href="#">Заполнить анкету онлайн</a>
-            </div>*}
-{*            <div class="get-more">
-                <div>
+            </div>
+            <div class="get-more">
+            {*<div>
                     {$_modx->resource.formTrigger}
-                </div>
-            </div>*}
+                </div>*}
+            </div>
         </div>
         {include 'file:chunks/landingBlocks/sendAnketa.tpl'}
         {include 'file:chunks/landingBlocks/sendPDF.tpl'}

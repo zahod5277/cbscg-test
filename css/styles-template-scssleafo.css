@@ -2958,6 +2958,7 @@ header h1.title-top-block {
   text-align: center; }
   header .after-title {
     font-size: 20px;
+    margin-top: 20px;
     color: white;
     text-align: center; }
   header .white-line {
@@ -3190,7 +3191,7 @@ header {
 * style for static menu
 */ }
   header .contact-from form {
-    border-bottom: 0px solid #eee;
+    border-bottom: 1px solid #eee;
     border-left: 1px solid #eee;
     border-right: 1px solid #eee;
     margin: 30px auto;
@@ -3241,20 +3242,25 @@ header {
     padding: 10px 0; }
   header .get-presentation {
     margin: 40px auto;
+    margin-bottom: 0px;
     text-align: center; }
   header .get-presentation a {
     text-decoration: underline;
     color: white;
     margin: 20px; }
+  header .get-presentation a:first-child {
+      margin-left: -10px;
+  }
   header .get-presentation a:hover {
     text-decoration: none; }
   header .get-more {
-    color: white;
+color: white;
     font-size: 18px;
-    margin: 50px 250px;
+    margin: 30px 250px;
+    margin-top: 0px;
     text-align: center;
-    background: url("/images/arrow-contact-from.png") no-repeat scroll center bottom;
-    padding-bottom: 70px; }
+    background: url(/images/arrow-contact-from.png) no-repeat scroll center bottom;
+    padding-bottom: 30px;}
   header .get-more .yellow-color {
     color: #f6d101; }
 

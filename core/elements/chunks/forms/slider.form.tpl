@@ -1,4 +1,4 @@
-<div class="contact-from white-line">
+<div class="contact-from">
     <div class="about-contact-from">
         {$_modx->resource.formTitle}
     </div>
