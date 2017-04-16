@@ -362,7 +362,9 @@ body .main-slider .navigation-container-custom {
 .menu_top li, .menu_bottom li {
     float: left;
     margin-right: 51px; }
-
+.infocenter-menu-top li{
+    margin-right: 46px;
+}
 .menu_top li:last-child, .menu_bottom li:last-child {
     margin-right: 0; }
 
@@ -4303,6 +4305,22 @@ div.itemFullText p,div.itemFullText div{
     background-position-y: 10px;
 }
 
+.infocenterMenuWrapper .top-phone-outer{
+    width: 52%;
+}
+
+.infocenterMenuWrapper .mainMenuLinksOuter{
+        width: 42%;
+}
+
+.infocenterMenuWrapper .mainMenuLinks{
+    display: none!important;
+}
+
+.infocenterMenuWrapper .static-top-menu .mainMenuLinks{
+    display: inline!important;
+}
+
 .static-top-menu .mainMenuLinksOuter{
     width: 86%;
     margin-right: 0%;
@@ -4310,6 +4328,14 @@ div.itemFullText p,div.itemFullText div{
 
 .static-top-menu .top-phone-outer{
     width: 14%;
+}
+
+.static-top-menu{
+    display: block!important;
+}
+
+.infocenterMenuWrapper .static-top-menu .top-icon{
+    text-align: right!important;
 }
 
 /*Конец правок от 13-04*/

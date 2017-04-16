@@ -62,7 +62,7 @@ if (typeof jQuery != "undefined") jQuery(function ($) {
     });
 	$(window).on( "scroll", function() {
 		var offset = $(window).scrollTop();
-		var $menu = $('#leo-top-menu');
+		var $menu = $('#leo-top-menu:not(.infocenter-menu-top)');
 		var $phone = $('.top-right-block');
 		if(offset<200) {
 			$menu.find('.top-right-block').remove();

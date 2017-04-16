@@ -29,8 +29,7 @@
                                         <a data-target="#phone-question" data-toggle="modal" href="#">
                                             <img alt="pnone" src="images/icon_phone.png" />
                                         </a>
-                                        <a href="#" onclick="window.BX.SiteButton.wm.show(window.BX.SiteButton.wm.getById('openline_livechat'));
-                                                return false;">
+                                        <a href="#" onclick="window.BX.SiteButton.wm.show(window.BX.SiteButton.wm.getById('openline_livechat'));return false;">
                                             <img alt="message" src="images/icon_message.png" />
                                         </a> 
                                         <a href="mailto:client@cbscg.ru">
