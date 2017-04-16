@@ -23,9 +23,9 @@
                             <div class="row">
                                 <div class="col-xs-8 no-padding mainMenuLinksOuter">
                                     <div class="top-icon">
-                                        <a href="#" class="mainMenuLinks">О компании</a>
-                                        <a href="#" class="mainMenuLinks">Инфо-центр</a>
-                                        <a href="#" class="mainMenuLinks">Контакты</a>
+                                        <a href="{'5336'|url}" class="mainMenuLinks">О компании</a>
+                                        <a href="{'5009'|url}" class="mainMenuLinks">Инфо-центр</a>
+                                        <a href="{'5117'|url}" class="mainMenuLinks">Контакты</a>
                                         <a data-target="#phone-question" data-toggle="modal" href="#">
                                             <img alt="pnone" src="images/icon_phone.png" />
                                         </a>
@@ -53,13 +53,13 @@
         <div id="leo-top-menu">
             <div class="leo-wrap-menu hidden-print">
                 <ul class="menu_top">
-                    <li class="item-125 current active"><a href="/" >Аудит</a></li>
-                    <li class="item-125 current active"><a href="/" >Учет</a></li>
-                    <li class="item-117 deeper"><a href="#"><span class="separator">Консалтинг</span></a></li>
-                    <li class="item-117 deeper"><a href="#"><span class="separator">Экспертизы</span></a></li>
-                    <li class="item-117 deeper"><a href="#"><span class="separator">МСФО</span></a></li>
-                    <li class="item-117 deeper"><a href="#"><span class="separator">Автоматизация</span></a></li>
-                    <li class="item-117 deeper"><a href="#"><span class="separator">Оценка</span></a></li>
+                    <li class="item-125 current active"><a href="{'3'|url}">Аудит</a></li>
+                    <li class="item-125 current active"><a href="{'48'|url}" >Учет</a></li>
+                    <li class="item-117 deeper"><a href="{'4'|url}"><span class="separator">Консалтинг</span></a></li>
+                    <li class="item-117 deeper"><a href="{'5076'|url}"><span class="separator">Экспертизы</span></a></li>
+                    <li class="item-117 deeper"><a href="{'5033'|url}"><span class="separator">МСФО</span></a></li>
+                    <li class="item-117 deeper"><a href="{'42'|url}"><span class="separator">Автоматизация</span></a></li>
+                    <li class="item-117 deeper"><a href="{'5036'|url}"><span class="separator">Оценка</span></a></li>
                 </ul>
             </div>
         </div>

@@ -72,7 +72,8 @@ if (typeof jQuery != "undefined") jQuery(function ($) {
 		if($menu.find('.top-right-block').length) {
 			return;
 		}
-		$phone.clone().appendTo($menu.find('.leo-wrap-menu'));
+                $phone.clone().prependTo($menu.find('.leo-wrap-menu'));
+//		$phone.clone().appendTo($menu.find('.leo-wrap-menu'));
 		//$phone.addClass('static-top-right-block');
 		$menu.addClass('static-top-menu');
 	});
