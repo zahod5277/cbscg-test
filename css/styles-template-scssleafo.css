@@ -356,12 +356,12 @@ background-position-x: left;
   background: rgba(0, 0, 0, 0) url("/images/advantage-1.png") no-repeat scroll left top; }
 
 .menu_top, .menu_bottom {
-  float: right;
+/*  float: right;*/
   list-style: outside none none; }
 
 .menu_top li, .menu_bottom li {
   float: left;
-  margin-right: 40px; }
+  margin-right: 51px; }
 
 .menu_top li:last-child, .menu_bottom li:last-child {
   margin-right: 0; }
@@ -3023,7 +3023,7 @@ body.landingBody header{
     color: white;
     padding: 0; }
   body.landingBody header .top-icon{
-    text-align: right;
+    text-align: left;
     margin: 5px 0; }
   body.landingBody header .top-icon a{
     background: none;
@@ -4205,6 +4205,19 @@ div.itemFullText p,div.itemFullText div{
     padding-left: 0px!important;
     padding-right: 0px!important;
 }
+
+.no-padding-right{
+    padding-right: 0px!important;
+}
+
+.no-padding-left{
+    padding-left: 0px!important;
+}
+
+.top-phone-outer{
+    width: 27%;
+}
+
 .childSerivceItem h3{
     width: 75%;
     float:left;
@@ -4251,6 +4264,24 @@ div.itemFullText p,div.itemFullText div{
 .childSrviceOuter{
     width: 72%;
 }
+
+.mainMenuLinks{
+    margin-right: 16px!important;
+    font-size: 18px;
+    color: #fff!important;
+    text-transform: uppercase;
+    padding-right: 0px!important;
+}
+
+.mainMenuLinks:nth-child(3){
+    margin-right: 35px!important;
+}
+
+.mainMenuLinksOuter{
+    width: 70%;
+    margin-right: 3%;
+}
+
 
 /*Конец правок от 13-04*/
 @media print{    

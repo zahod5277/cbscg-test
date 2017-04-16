@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row topmenu">
-        <div class="col-xs-4">
+        <div class="col-xs-2 no-padding-right">
             <div>
                 <div class="visible-print-block">
                     <img src="images/logo.png" title="logo" alt="CBS Group">
@@ -15,14 +15,17 @@
             <p>8 (495) 636­27­69</p>
             <p>info@cbscg.ru</p>
         </div>
-        <div class="col-xs-8 hidden-print">
+        <div class="col-xs-10 hidden-print">
             <div>
                 <div class="top-right-block">
-                    <div class="custom"  >
+                    <div class="custom">
                         <div class="static-wrapper-phone">
                             <div class="row">
-                                <div class="col-xs-7">
+                                <div class="col-xs-8 no-padding mainMenuLinksOuter">
                                     <div class="top-icon">
+                                        <a href="#" class="mainMenuLinks">О компании</a>
+                                        <a href="#" class="mainMenuLinks">Инфо-центр</a>
+                                        <a href="#" class="mainMenuLinks">Контакты</a>
                                         <a data-target="#phone-question" data-toggle="modal" href="#">
                                             <img alt="pnone" src="images/icon_phone.png" />
                                         </a>
@@ -38,7 +41,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="col-xs-5">
+                                <div class="col-xs-4 no-padding top-phone-outer">
                                     <div class="top-phone blue">+7(495)636-27-69</div>
                                 </div>
                             </div>
@@ -51,9 +54,9 @@
             <div class="leo-wrap-menu hidden-print">
                 <ul class="menu_top">
                     <li class="item-125 current active"><a href="/" >Аудит</a></li>
+                    <li class="item-125 current active"><a href="/" >Учет</a></li>
                     <li class="item-117 deeper"><a href="#"><span class="separator">Консалтинг</span></a></li>
-                    <li class="item-117 deeper"><a href="#"><span class="separator">Аутсорсинг</span></a></li>
-                    <li class="item-117 deeper"><a href="#"><span class="separator">Экспертиза</span></a></li>
+                    <li class="item-117 deeper"><a href="#"><span class="separator">Экспертизы</span></a></li>
                     <li class="item-117 deeper"><a href="#"><span class="separator">МСФО</span></a></li>
                     <li class="item-117 deeper"><a href="#"><span class="separator">Автоматизация</span></a></li>
                     <li class="item-117 deeper"><a href="#"><span class="separator">Оценка</span></a></li>
