@@ -12,7 +12,7 @@ if (typeof jQuery != "undefined") jQuery(function ($) {
         return false;
     });
     $('.top-icon a:nth-child(1),.top-icon a:nth-child(2)').on('click',function(e){
-        (e).preventDefault();
+        //(e).preventDefault();
     });
     $('.anyQuestionsItem').on('click', function(e){
         if ($(this).data('action')){

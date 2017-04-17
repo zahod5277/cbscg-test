@@ -59,7 +59,7 @@
                     <li class="item-117 deeper"><a href="{'5033'|url}"><span class="separator">МСФО</span></a></li>
                     <li class="item-117 deeper"><a href="{'42'|url}"><span class="separator">Автоматизация</span></a></li>
                     <li class="item-117 deeper no-margin-right"><a href="{'5036'|url}"><span class="separator">Оценка</span></a></li>
-                    <li class="item-117 deeper ugLi"><a class="uglyCallbackBtn" style="font-size:12px!important;color: #FFEB3B!important;" data-target="#phone-question" data-toggle="modal" href="#">Обратный звонок</a></li>
+                    <li class="item-117 deeper ugLi"><a class="uglyCallbackBtn" style="font-size:12px!important;color: #fff!important;" data-target="#phone-question" data-toggle="modal" href="#">Обратный звонок</a></li>
                 </ul>
             </div>
         </div>

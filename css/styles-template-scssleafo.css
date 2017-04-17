@@ -359,9 +359,15 @@ body .main-slider .navigation-container-custom {
     /*  float: right;*/
     list-style: outside none none; }
 
-.menu_top li, .menu_bottom li {
+.menu_top li{
     float: left;
     margin-right: 51px; }
+
+.menu_bottom li{
+    float: left;
+    margin-right: 49px;
+}
+
 .infocenter-menu-top li{
     margin-right: 46px;
 }
@@ -3233,7 +3239,7 @@ header .contact-from input {
     box-shadow: none;
     font-family: 'Arial';
     color: white;
-    font-size: 11px; }
+    font-size: 14px; }
 header .contact-from input:focus {
     box-shadow: none;
     border-color: #eee; }
@@ -3252,15 +3258,17 @@ header .get-presentation a {
     color: white;
     margin: 20px; }
 header .get-presentation a:first-child {
-    margin-left: -10px;
+    margin-left: -11px;
 }
 header .get-presentation a:hover {
     text-decoration: none; }
 header .get-more {
     color: white;
     font-size: 18px;
-    margin: 30px 250px;
-    margin-top: 0px;
+    margin: 25px 250px;
+    margin-top: 25px;
+    position: relative;
+    left: 1px;
     text-align: center;
     background: url(/images/arrow-contact-from.png) no-repeat scroll center bottom;
     padding-bottom: 30px;}
@@ -3280,7 +3288,7 @@ body.lang-ru header .static-top-menu .top-right-block .top-icon {
     margin-bottom: 11px;
 }
 body.lang-ru header .static-top-menu .top-right-block .top-icon a {
-    margin: 0 30px 0 0; }
+    margin: 0 37px 0 0; }
 
 body.lang-ru header .static-top-menu .top-right-block .top-phone {
     color: white;
@@ -4289,16 +4297,20 @@ div.itemFullText p,div.itemFullText div{
     margin-right: 40px!important;
 }
 
+.mainMenuLinks:hover{
+    text-decoration: underline!important;
+}
+
 .mainMenuLinks:nth-child(3){
     margin-right: 38px!important;
 }
 
 .static-top-menu .mainMenuLinks:nth-child(2){
-    margin:0px 65px!important;
+    margin:0px 74px!important;
 }
 
 .static-top-menu .mainMenuLinks:nth-child(3){
-    margin-right: 123px!important;
+    margin-right: 79px!important;
 }
 
 .mainMenuLinksOuter{
@@ -4350,19 +4362,19 @@ div.itemFullText p,div.itemFullText div{
 }
 
 .uglyCallbackBtn{
-    background: #7f0000;
-    color: #FFEB3B;
+    background: #006eb8;
     padding: 10px 15px;
     float: right;
+    color: #fff!important;
     text-transform: uppercase;
     font-size: 12px;
-    margin-top: 15px;
+    margin-top: 23px;
 }
 
 .uglyCallbackBtn:hover,.uglyCallbackBtn:focus,.uglyCallbackBtn:active{
     text-decoration: none;
-    background: #6c0101;
-    color: #FFEB3B;
+    background: #0042b8;
+    color: #fff;
 }
 
 .menu_top .uglyCallbackBtn{
@@ -4376,6 +4388,11 @@ div.itemFullText p,div.itemFullText div{
     position: absolute;
     bottom:0px;
     right: -10px;
+    background: #0099ff;
+}
+
+.static-top-menu .menu_top .uglyCallbackBtn:hover{
+     background: #0042b8;
 }
 
 .static-top-menu .menu_top .uglyCallbackBtn:hover{
