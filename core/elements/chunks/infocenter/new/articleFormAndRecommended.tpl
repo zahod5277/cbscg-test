@@ -1,30 +1,36 @@
 <div class="hidden-print">
     <div class="inner-bottom _page_info_block_news_module">
-        <div class=" _tape_news infocenterSubForm">
-            <div class="custom_tape_news">
-                <div class="sub-form" id="b9f17eafed5a89ff435a7f836a255b36a32d5a09887b746f8e201e55602c2f65">
+    <div class=" _tape_news _info_center_tape_news_">
+        <div class="custom_tape_news _info_center_tape_news_">
+            <!-- Begin Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="http://clientcbscgru.ru1.list-update.ru/" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate sub-form" target="_blank">
+                    <input type="hidden" name="list_id" value="872040">
+                    <input type="hidden" name="no_conf" value="">
+                    <input type="hidden" name="notify" value="">
                     <div class="row">
                         <div class="col-xs-6">
                             <div>
                                 <div class="sub-friends">
-                                    <span>Хочу еженедельно получать актуальные 
-                                        новости о налогах, учете и финансах <strong>бесплатно</strong></span>
+                                    Хочу еженедельно получать актуальные новости о налогах, учете и финансах бесплатно
                                 </div>
-                                <input class="friends" id="b061353aeec7556763e1abe1f73081cf" type="checkbox" name="sform[0J/QvtC00L/QuNGB0LDRgtGMINC60L7Qu9C70LXQsw==]" />
-                                <input id="b061353aeec7556763e1abe1f73081cf_on" type="hidden" value="Да">
-                                <input id="b061353aeec7556763e1abe1f73081cf_off" type="hidden" value="Нет">
-                                <label for="b061353aeec7556763e1abe1f73081cf">подписать моих коллег</label>
                             </div>
                         </div>
-                        <div class="col-xs-6 infocenterSubFormInputs">
-                            <input name="sform[hash]" type="hidden" value="b9f17eafed5a89ff435a7f836a255b36a32d5a09887b746f8e201e55602c2f65" />
-                            <input class="b9f17eafed5a89ff435a7f836a255b36a32d5a09887b746f8e201e55602c2f65_email us_input" maxlength="255" name="sform[email]" placeholder="Введите ваш E-Mail" required="required" type="email" />
-                            <button class="us_submit" id="buttonb9f17eafed5a89ff435a7f836a255b36a32d5a09887b746f8e201e55602c2f65" onclick="sformb9f17eafed5a89ff435a7f836a255b36a32d5a09887b746f8e201e55602c2f65._button();">Подписаться</button>
+                        <div class="col-xs-6">
+                            <input id="mce-EMAIL" class="_email us_input" maxlength="255" name="email" placeholder="Введите ваш E-Mail" required="required" type="email" />
+                            <button dojotype="dijit.form.Button"  name="subscribe" class="us_submit" id="mc-embedded-subscribe">
+                                Подписаться
+                            </button>
                         </div>
                     </div>
-                </div>
+                    <div id="mce-responses" class="clear">
+                        <div class="response" id="mce-error-response" style="display:none"></div>
+                        <div class="response" id="mce-success-response" style="display:none"></div>
+                    </div>	
+                </form>
             </div>
         </div>
+    </div>
         <div class="infocenterOtherCateg">
             <h3><i class="chart"></i> Другие разделы ИНФО-центра</h3>
             <ul class="">

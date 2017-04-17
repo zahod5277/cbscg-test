@@ -365,8 +365,9 @@ body .main-slider .navigation-container-custom {
 .infocenter-menu-top li{
     margin-right: 46px;
 }
-.menu_top li:last-child, .menu_bottom li:last-child {
-    margin-right: 0; }
+.menu_top li:last-child, .menu_bottom li:last-child,.no-margin-right {
+    margin-right: 0!important;
+}
 
 .menu_top > .parent .separator, .menu_bottom > .parent .separator {
     cursor: pointer; }
@@ -2269,7 +2270,7 @@ input.error::-webkit-input-placeholder, .form input.error::-webkit-input-placeho
     left: 0;
     margin: 0 auto;
     padding: 0;
-margin-left: 110px;}
+margin-left: 158px;}
 
 .static-top-menu .menu_top .parent ul {
     left: 0px;
@@ -2997,7 +2998,7 @@ header .desc-slide-button > a, header .desc-slide-button > div {
     float: none !important;
     text-align: left; }
 header .top-right-block {
-    margin-bottom: 30px; }
+    margin-bottom: 18px; }
 
 .relative {
     position: relative; }
@@ -3033,7 +3034,7 @@ body.landingBody header .top-icon a{
     border-radius: 0;
     height: auto;
     width: inherit;
-    margin: 0 30px 0 0; }
+    margin: 0 15px 0 0; }
 body.landingBody header .top-icon a img{
     height: auto;
     padding: 0;
@@ -3230,10 +3231,9 @@ header .contact-from input {
     padding-left: 0;
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     box-shadow: none;
-    font-family: times new roman;
-    font-style: italic;
+    font-family: 'Arial';
     color: white;
-    font-size: 16px; }
+    font-size: 11px; }
 header .contact-from input:focus {
     box-shadow: none;
     border-color: #eee; }
@@ -4280,14 +4280,25 @@ div.itemFullText p,div.itemFullText div{
     color: #fff!important;
     text-transform: uppercase;
     padding-right: 0px!important;
+    margin: 0 15px 0 0!important;
+    position: relative;
+    top:3px;
+}
+.mainMenuLinks:nth-child(2){
+    margin-left: 25px!important;
+    margin-right: 40px!important;
 }
 
 .mainMenuLinks:nth-child(3){
-    margin-right: 35px!important;
+    margin-right: 38px!important;
+}
+
+.static-top-menu .mainMenuLinks:nth-child(2){
+    margin:0px 65px!important;
 }
 
 .static-top-menu .mainMenuLinks:nth-child(3){
-    margin-right: 284px!important;
+    margin-right: 123px!important;
 }
 
 .mainMenuLinksOuter{
@@ -4336,6 +4347,40 @@ div.itemFullText p,div.itemFullText div{
 
 .infocenterMenuWrapper .static-top-menu .top-icon{
     text-align: right!important;
+}
+
+.uglyCallbackBtn{
+    background: #7f0000;
+    color: #FFEB3B;
+    padding: 10px 15px;
+    float: right;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.uglyCallbackBtn:hover,.uglyCallbackBtn:focus,.uglyCallbackBtn:active{
+    text-decoration: none;
+    background: #6c0101;
+    color: #FFEB3B;
+}
+
+.menu_top .uglyCallbackBtn{
+    display: none;
+}
+
+.static-top-menu .menu_top .uglyCallbackBtn{
+    display: inline-block;
+    padding: 5px 10px!important;
+    margin-top: 0px;
+    position: absolute;
+    bottom:0px;
+    right: -10px;
+}
+
+.static-top-menu .menu_top .uglyCallbackBtn:hover{
+    color: #FFEB3B;
+    text-decoration: none;
 }
 
 /*Конец правок от 13-04*/
