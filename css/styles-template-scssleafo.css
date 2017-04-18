@@ -361,7 +361,7 @@ body .main-slider .navigation-container-custom {
 
 .menu_top li{
     float: left;
-    margin-right: 51px; }
+    margin-right: 48px; }
 
 .menu_bottom li{
     float: left;
@@ -3295,7 +3295,7 @@ body.lang-ru header .static-top-menu .top-right-block .top-phone {
     font-size: 30px;
     padding: 0; }
 body.lang-ru header .static-top-menu .menu_top > li {
-    margin: 0 30px 0 10px;
+    margin: 0 29px 0 10px;
     padding: 6px 0; }
 body.lang-ru header .static-top-menu .menu_top > li.active-parent::after {
     left: 235px;
@@ -4310,12 +4310,12 @@ div.itemFullText p,div.itemFullText div{
 }
 
 .static-top-menu .mainMenuLinks:nth-child(3){
-    margin-right: 79px!important;
+    margin-right: 68px!important;
 }
 
 .mainMenuLinksOuter{
     width: 70%;
-    margin-right: 3%;
+    margin-right: 1%;
 }
 
 .static-top-menu .mainMenuLinks{
@@ -4345,7 +4345,7 @@ div.itemFullText p,div.itemFullText div{
 }
 
 .static-top-menu .mainMenuLinksOuter{
-    width: 86%;
+    width: 85%;
     margin-right: 0%;
 }
 
@@ -4369,6 +4369,8 @@ div.itemFullText p,div.itemFullText div{
     text-transform: uppercase;
     font-size: 12px;
     margin-top: 23px;
+    position: relative;
+    right: 19px;
 }
 
 .uglyCallbackBtn:hover,.uglyCallbackBtn:focus,.uglyCallbackBtn:active{
@@ -4387,7 +4389,7 @@ div.itemFullText p,div.itemFullText div{
     margin-top: 0px;
     position: absolute;
     bottom:0px;
-    right: -10px;
+    right: 0px;
     background: #0099ff;
 }
 
