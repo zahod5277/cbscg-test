@@ -19,8 +19,10 @@
                     {else}
                         {var $landingFile = $_modx->resource.landingFile}
                 {/if}
+                {if $_modx->resource.id!=5117}
                 <a href="{$landingFile}" target="_blank">Скачать краткую презентацию</a> 
                 <a data-target="#fill-profile" data-toggle="modal" href="#">Заполнить анкету онлайн</a>
+                {/if}
             </div>
             <div class="get-more">
             {*<div>

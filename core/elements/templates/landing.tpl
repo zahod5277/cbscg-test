@@ -23,7 +23,11 @@
     {block 'WELCOMETEXT'}
     {include 'file:chunks/common/breadcrumbs.tpl'}
         {block 'ADV'}
+            {if $_modx->resource.link_attributes!='***adminMode'}
+            {include 'file:chunks/landingBlocks/adv.tpl'}
+            {else}
             {include 'file:chunks/landingBlocks/childService/childServiceOuter.tpl'}
+            {/if}
         {/block}
     {include 'file:chunks/landingBlocks/video.tpl'}
     {include 'file:chunks/landingBlocks/adv2.tpl'}

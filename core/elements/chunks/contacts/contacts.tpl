@@ -1,34 +1,12 @@
 
 <div class="itemHeader">
-        <div class="blue module-title">
-            <h1 style="margin-top:30px;">
-                Контакты			
-            </h1>
-        </div>
     </div>
     <div class="itemBody">
         <div class="itemFullText">
-            <div class="RobotoLight px15">
-                У нашей компании несколько офисов на территории Московского региона
-            </div>
-            <p class="RobotoLight px15">
-                Позвонить нам можно по номеру: 
-                <span class="blue">8 (495) 636-27-69</span> 
-                <span class="middleGreyText">(многоканальный)</span>
-            </p>
-            <p class="RobotoLight px15">
-                Написать нам можно на почту: 
-                <span id="cloak76745">
-                    <a class="black" href="mailto:info@cbscg.ru">
-                        <span class="blue">info@cbscg.ru</span>
-                    </a> 
-                </span>
-                <span class="middleGreyText">(корпоративный)</span>
-            </p>
             <div class="row">
                 <div class="col-xs-6">
                     <div class="name-offece">
-                        Главный офис «Южный»
+                        <strong>Главный офис «Южный»</strong>
                     </div>
                     <div class="address-offece">
                         Октябрьский проспект, 112<br>
@@ -49,7 +27,7 @@
                 </div>
                 <div class="col-xs-6">
                     <div class="name-offece">
-                        Офис «Центральный»
+                        <strong>Офис «Центральный»</strong>
                     </div>
                     <div class="address-offece">
                         ул. Каланчевская, 20/7<br>
@@ -72,7 +50,7 @@
             <div class="row margin40--20px">
                 <div class="col-xs-6">
                     <div class="name-offece">
-                        Офис «Западный»
+                        <strong>Офис «Западный»</strong>
                     </div>
                     <div class="address-offece">
                         Панфиловский проспект, 10/1<br>
@@ -95,7 +73,7 @@
                 </div>
                 <div class="col-xs-6">
                     <div class="name-offece">
-                        Офис «Северный»
+                        <strong>Офис «Северный»</strong>
                     </div>
                     <div class="address-offece">
                         Красной Армии проспект, 171<br>
