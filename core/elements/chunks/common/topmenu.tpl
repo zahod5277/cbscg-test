@@ -52,13 +52,17 @@
         <div id="leo-top-menu">
             <div class="leo-wrap-menu hidden-print">
                 <ul class="menu_top">
-                    <li class="item-125 current active"><a href="{'3'|url}">Аудит</a></li>
-                    <li class="item-125 current active"><a href="{'48'|url}" >Учет</a></li>
-                    <li class="item-117 deeper"><a href="{'4'|url}"><span class="separator">Консалтинг</span></a></li>
-                    <li class="item-117 deeper"><a href="{'5076'|url}"><span class="separator">Экспертизы</span></a></li>
-                    <li class="item-117 deeper"><a href="{'5033'|url}"><span class="separator">МСФО</span></a></li>
-                    <li class="item-117 deeper"><a href="{'42'|url}"><span class="separator">Автоматизация</span></a></li>
-                    <li class="item-117 deeper no-margin-right"><a href="{'5036'|url}"><span class="separator">Оценка</span></a></li>
+                    {$_modx->runSnippet('pdoMenu',[
+                        'parents' => '5010',
+                        'level' => 2,
+                        'sortBy' => 'menuindex',
+                        'sortdir' => 'ASC',
+                        'tplOuter' => '@INLINE {$wrapper}',
+                        'tpl' => '@FILE:chunks/common/topMenuLevel1.tpl',
+                        'lastClass' => 'no-margin-right',
+                        'tplInner' => '@INLINE <ul class="secondLevelMenu">{$wrapper}</ul>',
+                        'tplInnerRow' => '@INLINE <li><a href="{$uri}">{$pagetitle}</a></li>'
+                    ])}
                     <li class="item-117 deeper ugLi"><a class="uglyCallbackBtn" style="font-size:12px!important;color: #fff!important;" data-target="#phone-question" data-toggle="modal" href="#">Обратный звонок</a></li>
                 </ul>
             </div>

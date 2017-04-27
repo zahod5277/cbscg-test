@@ -3159,7 +3159,7 @@ body.itemid-101 header {
   * style for form in header
   **/ }
 body.itemid-101 header .about-compane-yellow-icons {
-    margin: 50px 70px 160px; }
+    margin: 0px 70px 0px;}
 body.itemid-101 header .about-compane-yellow-icons .row > div {
     margin-top: 30px;
     margin-bottom: 30px; }
@@ -4400,6 +4400,38 @@ div.itemFullText p,div.itemFullText div{
 .static-top-menu .menu_top .uglyCallbackBtn:hover{
     color: #FFEB3B;
     text-decoration: none;
+}
+
+.companySlider .white-line{
+    background: rgba(0,0,0,0) url(/images/white_underline.png) no-repeat center 65px;
+    min-height: auto;
+    text-transform: uppercase;
+    padding-bottom: 29px;
+}
+
+.secondLevelMenu{
+    display: none;
+    position: absolute;
+    padding: 0px;
+    color: white;
+    background: rgba(0,113,188,1);
+    padding: 20px 10px;
+    z-index:9000;
+}
+
+.item-125:hover>.secondLevelMenu{
+    display: block;
+}
+
+.secondLevelMenu a{
+    color: white;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.secondLevelMenu li{
+    display: block;
+    float:none;
 }
 
 /*Конец правок от 13-04*/

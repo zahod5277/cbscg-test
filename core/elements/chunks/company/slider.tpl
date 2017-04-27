@@ -1,9 +1,8 @@
-<div class="main-slider">
+<div class="main-slider companySlider">
     <div class="container">
         <div class="custom">
-            <br>
-            <div>
-                <h1 class="RobotoBold title-top-block mainTitle upper-case">
+            <div class="mainTitle">
+                <h1 class="RobotoBold upper-case">
                          {$_modx->resource.landingTitle}
                 </h1>
             </div>
@@ -71,6 +70,9 @@
                 </div>
             </div>
         </div>
+            <div class="get-more">
+            
+            </div>
         {include 'file:chunks/company/sendAnketa.tpl'}
         {include 'file:chunks/company/modal.tpl'}
     </div>
